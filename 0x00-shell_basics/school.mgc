@@ -1,2 +1,2 @@
 #!/bin/bash
-find / -type f -exec grep -H 'SCHOOL' {} \;
+grep -rwl "SCHOOL"
