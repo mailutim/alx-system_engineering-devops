@@ -1,2 +1,2 @@
 #!/bin/bash
-find /School -iname 'SCHOOL*' -type f
+find / -type f -exec grep -H 'SCHOOL' {} \;
